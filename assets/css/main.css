@@ -2539,8 +2539,15 @@ input, select, textarea {
 			display: block;
 			position: relative;
 			text-align: left;
-			width: 14%;
+			width: 19%;
 			text-align: center;
+		}
+
+		.features h3 {
+			padding: 5px;
+			text-transform: none;
+			font-weight: 600;
+			font-size: 15px;
 		}
 /* 
 			.features li:nth-child(1) {
@@ -4092,4 +4099,8 @@ input, select, textarea {
 		width: 150px;
 		height: 150px;
 		background: black;
+	}
+
+	.remove-margin {
+		margin-top: -40px !important;
 	}
