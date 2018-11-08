@@ -3697,6 +3697,9 @@ input, select, textarea {
 				padding: 7em 3em 5em 3em ;
 				height: auto;
 				min-height: 0;
+				background-image: url("images/sunny.jpeg");
+				background-position: center;
+				background-size: cover;
 			}
 
 				#banner h2 {
@@ -3731,6 +3734,9 @@ input, select, textarea {
 		-ms-transform: translateY(8.5em);
 		transform: translateY(8.5em);
 		opacity: 0;
+		background-image: url("images/sunny.jpeg");
+		background-position: center;
+		background-size: cover;
 	}
 
 	body.is-preload #banner:after {
@@ -3972,10 +3978,13 @@ input, select, textarea {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		/* background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
+		background-image: url("images/sunny.jpeg");
+		background-position: center;
+		background-size: cover;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -4128,6 +4137,10 @@ input, select, textarea {
 	}
 
 	.custom-contact-box {
-		margin-top: -60px;
+		margin-top: -30px;
 		margin-bottom: -60px;
+	}
+
+	.grayish {
+		background: #1d242a !important;
 	}
