@@ -3879,7 +3879,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 6em 0 4em 0 ;
-		background-color: #1d242a;
+		background-color: black !important;
 		text-align: center;
 	}
 
@@ -3888,11 +3888,11 @@ input, select, textarea {
 		}
 
 			#footer .icons a {
-				color: rgba(255, 255, 255, 0.5);
+				color: white;
 			}
 
 				#footer .icons a:hover {
-					color: #fff;
+					color: rgba(255, 255, 255, 0.5);
 				}
 
 		#footer .copyright {
@@ -4032,6 +4032,7 @@ input, select, textarea {
 		color: black;
 		font-size: 40px;
 		justify-content: space-around;
+		align-items: center;
 	}
 
 	#one .my-icons a {
@@ -4147,4 +4148,150 @@ input, select, textarea {
 
 	.pink {
 		background: #DA6E82 !important;
+	}
+
+	/* background */
+
+	.bg-container {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.bg-container > div {
+		text-align: center;
+		padding: 0 20px 0 20px;
+		width: 35%;
+		color: white;
+		line-height: 1.2em;
+	}
+
+	@media screen and (max-width: 980px) {
+
+				.bg-container {
+					display: inline;
+				}
+
+				.bg-container > div {
+					width: 100%;
+				}
+
+				.bg-container .inner-div-bg {
+					margin-top: 10px;
+				}
+
+				.bg-container li {
+					width: 100%;
+					display: block;
+					padding: 3em 2em 1em 2em ;
+					text-align: center;
+				}
+
+				.connect-list li {
+					margin: 0 !important;
+					padding: 3px;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.bg-container {
+					display: inline;
+				}
+
+				.bg-container > div {
+					width: 100%;
+				}
+
+				.bg-container .inner-div-bg {
+					margin-top: 10px;
+				}
+
+				.bg-container li {
+					width: 100%;
+					display: block;
+				}
+
+				.connect-list li {
+					margin: 0 !important;
+					padding: 3px;
+				}
+
+			}
+
+	.inner-div-bg {
+		margin-top: -20px;
+		text-align: left;
+	}
+
+
+	.education {
+		text-align: left;
+		margin-bottom: 20px;
+	}
+
+	.education h5 {
+		text-transform: none;
+		border-bottom: none !important;
+		font-weight: normal;
+		font-style: italic;
+		font-size: 15px;
+		margin: 0 !important;
+	}
+
+	.education span {
+		font-size: 13px;
+	}
+
+	.me-connect {
+		width: 165px;
+		height: 260px;
+		margin-bottom: 20px;
+		border: 3px solid white;
+	}
+
+	.conect-container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.connect-list {
+		list-style: none;
+	}
+
+	.connect-list li {
+		margin-bottom: 10px;
+		transition: .2s;
+	}
+
+	.connect-list a {
+		border-bottom: none;
+		font-size: 16px;
+		font-weight: 600;
+	}
+
+	.connect-list a:hover {
+		color: black;
+	}
+
+	.resume-button h6 {
+		margin-top: 15px;
+		font-size: 15px;
+		color: black;
+		padding: 8px !important;
+		border: 1px solid black !important;
+		border-radius: 3px;
+		transition: .2s;
+	}
+
+	.resume-button h6:hover {
+		color: white;
+		border: 1px solid white;
+		background: black;
+	}
+
+	.footer-icons a {
+		border-bottom: none;
 	}
