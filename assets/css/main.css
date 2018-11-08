@@ -4104,3 +4104,30 @@ input, select, textarea {
 	.remove-margin {
 		margin-top: -40px !important;
 	}
+
+	/* contact */
+
+	.contact {
+		display: flex;
+		flex-direction: column;
+		width: 70%;
+		margin: auto;
+		text-align: center;
+	}
+
+	.contact h2 {
+		text-align: center;
+	}
+
+	.fields div {
+		padding: 10px;
+	}
+
+	.submit {
+		padding: 20px;
+	}
+
+	.custom-contact-box {
+		margin-top: -60px;
+		margin-bottom: -60px;
+	}
