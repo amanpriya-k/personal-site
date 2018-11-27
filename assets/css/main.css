@@ -3568,12 +3568,9 @@ input, select, textarea {
 		overflow: hidden;
 		position: relative;
 		text-align: center;
-		/* text-align: center; */
-		background-image: url("images/cheese-coffee.jpg");
-		/* background-image: url("images/sunny.jpeg"); */
+		background-image: url("images/cheesing-coffee.jpg");
 		background-position: center;
-		background-size: contain;
-		/* background-size: cover; */
+		background-size: cover;
 		/* opacity: .5; */
 	}
 
@@ -3594,9 +3591,7 @@ input, select, textarea {
 			z-index: 1;
 			color: rgb(214, 115, 57);
 			-webkit-text-stroke: .5px white;
-			/* -webkit-text-stroke: 1px white; */
-			top: -180px;
-			/* color: #313F3A; */
+			top: -215px;
 		}
 
 			#banner h2:before, #banner h2:after {
@@ -3631,7 +3626,7 @@ input, select, textarea {
 			text-transform: uppercase;
 			color: white;
 			position: relative;
-			top: -190px;
+			top: -225px;
 		}
 
 		#banner .more {
@@ -3706,13 +3701,23 @@ input, select, textarea {
 				padding: 7em 3em 5em 3em ;
 				height: auto;
 				min-height: 0;
-				background-image: url("images/sunny.jpeg");
+				background-image: url("images/cheesing-coffee.jpg");
+				/* background-image: url("images/sunny.jpeg"); */
 				background-position: center;
 				background-size: cover;
 			}
 
 				#banner h2 {
 					font-size: 1.25em;
+					position: relative;
+					top: -80px;
+					font-size: 1.3em;
+				}
+
+				#banner p {
+					position: relative;
+					top: -95px;
+					font-size: .7em;
 				}
 
 				#banner br {
@@ -3743,7 +3748,8 @@ input, select, textarea {
 		-ms-transform: translateY(8.5em);
 		transform: translateY(8.5em);
 		opacity: 0;
-		background-image: url("images/sunny.jpeg");
+		background-image: url("images/cheesing-coffee.jpg");
+		/* background-image: url("images/sunny.jpeg"); */
 		background-position: center;
 		background-size: cover;
 	}
@@ -3991,7 +3997,8 @@ input, select, textarea {
 		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg");
 		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner.jpg"); */
-		background-image: url("images/sunny.jpeg");
+		background-image: url("images/cheesing-coffee.jpg");
+		/* background-image: url("images/sunny.jpeg"); */
 		background-position: center;
 		background-size: cover;
 		background-position: center center;
@@ -4007,13 +4014,14 @@ input, select, textarea {
 	/* section 1 */
 
 	#one {
-		background: url('images//Decent.jpg');
+		background: url('images/Sunkist.png');
+		background-size: cover;
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		overflow: hidden;
 		padding-top: 30px;
-		height: 642px;
+		height: 100vh;
 		position: relative;
 	}
 
