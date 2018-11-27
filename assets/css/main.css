@@ -3572,7 +3572,8 @@ input, select, textarea {
 		background-image: url("images/cheese-coffee.jpg");
 		/* background-image: url("images/sunny.jpeg"); */
 		background-position: center;
-		background-size: cover;
+		background-size: contain;
+		/* background-size: cover; */
 		/* opacity: .5; */
 	}
 
